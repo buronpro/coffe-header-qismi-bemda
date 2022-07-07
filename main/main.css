@@ -1,0 +1,127 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+    font-family: 'Arial', 'sans-serif';
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.container {
+    width: 1320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+
+.header {
+    margin-top: 44px;
+    margin-bottom: 45px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navber__list {
+    display: flex;
+}
+
+.navber__item {
+    margin-left: 30px;
+}
+
+.navber__link {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+.navber__link:hover {
+    color: #1db431;
+    text-decoration: underline;
+}
+
+
+.hero .container {
+    border-radius: 10px;
+    background-image: url("../img/coffe.about.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1260px;
+    height: 450px;
+   
+}
+
+.hero__info {
+width: 445px;
+height: 176px;
+padding-top: 120px;
+padding-left: 85px;
+}
+
+.hero__h2 {   
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #FEFCF7;
+}
+
+.hero__p {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+
+}
